@@ -5,9 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="index.css">
   
-  <title>Frontend Mentor | FAQ accordion</title>
+  <title>Frontend Mentor | Blog preview card</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
@@ -15,103 +15,43 @@
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
 </head>
-
 <body>
+
   <main>
-    <div class="text-sec">
-      <div class="title-sec">
-        <img src="assets/images/icon-star.svg" alt="Star logo beside title" width="35" height="36">
-        <p class="title">FAQs</p>
+    <div class="all-container">
+      <div class="img-container">
+        <img src="assets/images/illustration-article.svg" alt="Image of blog image" width="336" height="200">
       </div>
     
-      <div class="question-answer">
-        <div class="questions">
-          <div class="question1 question-sec">
-            <button type="button" class="card-button" id="cardOne">
-              <p class="question">
-                What is Frontend Mentor, and how will it help me?
-              </p>
-              <div class="card-img">
-                <img src="assets/images/icon-plus.svg" alt="Plus sign to open card" class="plus-button" id="cardOnePlus">
-                <img src="assets/images/icon-minus.svg" alt="Minues sign to close card" class="minus-button" id="cardOneMinus">
-              </div>
-            </button>
-          </div>
-          
-          <p class="answer" id="answerOne">
-            Frontend Mentor offers realistic coding challenges to help developers improve their 
-            frontend coding skills with projects in HTML, CSS, and JavaScript. It's suitable for 
-            all levels and ideal for portfolio building.
-          </p>
-        </div>
-      </div>
-
-      <div class="question-answer">
-        <div class="question2 question-sec">
-          <button type="button" class="card-button" id="cardTwo">
-            <p class="question">
-              Is Frontend Mentor free?
-            </p>
-            <div class="card-img">
-                <img src="assets/images/icon-plus.svg" alt="Plus sign to open card" class="plus-button" id="cardTwoPlus">
-                <img src="assets/images/icon-minus.svg" alt="Minues sign to close card" class="minus-button" id="cardTwoMinus">
-            </div>
-          </button>
-        </div>
-
-        <p class="answer" id="answerTwo">
-          Yes, Frontend Mentor offers both free and premium coding challenges, with the free 
-          option providing access to a range of projects suitable for all skill levels.
-        </p>       
-      </div>
-
-      <div class="question-answer">
-        <div class="question3 question-sec">
-          <button type="button" class="card-button" id="cardThree">
-            <p class="question">
-              Can I use Frontend Mentor projects in my portfolio?
-            </p>
-            <div class="card-img">
-                <img src="assets/images/icon-plus.svg" alt="Plus sign to open card" class="plus-button" id="cardThreePlus">
-                <img src="assets/images/icon-minus.svg" alt="Minues sign to close card" class="minus-button" id="cardThreeMinus">
-            </div>
-          </button>
-        </div>
-
-        <p class="answer" id="answerThree">
-          Yes, you can use projects completed on Frontend Mentor in your portfolio. It's an excellent
-          way to showcase your skills to potential employers!
+      <div>
+        <p class="learning">
+          Learning
         </p>
-      </div>
-
-      <div class="question-answer">
-        <div class="question4 question-sec">
-          <button type="button" class="card-button" id="cardFour">
-            <p class="question">
-              How can I get help if I'm stuck on a Frontend Mentor challenge?
-            </p>
-            <div class="card-img">
-                <img src="assets/images/icon-plus.svg" alt="Plus sign to open card" class="plus-button" id="cardFourPlus">
-                <img src="assets/images/icon-minus.svg" alt="Minues sign to close card" class="minus-button" id="cardFourMinus">
-            </div>
-          </button>
-        </div>
-
-        <p class="answer" id="answerFour">
-          The best place to get help is inside Frontend Mentor's Discord community. There's a help 
-          channel where you can ask questions and seek support from other community members.
+    
+        <p class="pub-date">
+          Published 21 Dec 2023
         </p>
+      
+        <h1 class="title">
+          HTML & CSS foundations
+        </h1>
+      
+        <p class="desc">
+          These languages are the backbone of every website, defining structure, content, and presentation.
+        </p>
+      </div> 
+      
+      <div class="author">
+        <img src="assets/images/image-avatar.webp" alt="" class="author-img" width="32" height="32">
+        <p class="author-name">Greg Hooper</p>
       </div>
-
     </div>
+  
   </main>
   
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="#">Zachary Reid</a>.
   </div>
-
-  <script src="index.js"></script>
-
 </body>
 </html>
